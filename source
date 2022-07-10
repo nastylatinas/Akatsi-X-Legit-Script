@@ -1,4 +1,4 @@
--- Akatsi-X | vj1r
+-- AKATSI-X // vj1r
 -- Version: 3.2
 
 -- Instances:
@@ -44,8 +44,9 @@ mainFrame.Name = "mainFrame"
 mainFrame.Parent = Akatsi_X
 mainFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 mainFrame.BackgroundTransparency = 0.200
-mainFrame.Position = UDim2.new(0.352999985, 0, 0.372000009, 0)
+mainFrame.Position = UDim2.new(0.986999989, 0, 0.372000009, 0)
 mainFrame.Size = UDim2.new(0.291972727, 0, 0.255775601, 0)
+mainFrame.Visible = false
 
 titleOne.Name = "titleOne"
 titleOne.Parent = mainFrame
@@ -252,7 +253,7 @@ UICorner_13.Parent = cmd_8
 
 -- Scripts:
 
-local function QFKSD_fake_script() -- Akatsi_X.Noti 
+local function NXHCM_fake_script() -- Akatsi_X.Noti 
 	local script = Instance.new('LocalScript', Akatsi_X)
 
 	local sg = game:GetService('StarterGui')
@@ -286,8 +287,8 @@ local function QFKSD_fake_script() -- Akatsi_X.Noti
 	wait(0.01)
 	spawn(startNotif)
 end
-coroutine.wrap(QFKSD_fake_script)()
-local function FEXS_fake_script() -- Akatsi_X.Main 
+coroutine.wrap(NXHCM_fake_script)()
+local function DBMVT_fake_script() -- Akatsi_X.Main 
 	local script = Instance.new('LocalScript', Akatsi_X)
 
 	local tweenService = game:GetService('TweenService')
@@ -436,8 +437,8 @@ local function FEXS_fake_script() -- Akatsi_X.Main
 		end
 	end
 end
-coroutine.wrap(FEXS_fake_script)()
-local function BUAG_fake_script() -- Akatsi_X.By 
+coroutine.wrap(DBMVT_fake_script)()
+local function LLJN_fake_script() -- Akatsi_X.By 
 	local script = Instance.new('LocalScript', Akatsi_X)
 
 	local LP = game.Players.LocalPlayer
@@ -551,4 +552,4 @@ local function BUAG_fake_script() -- Akatsi_X.By
 		end
 	end
 end
-coroutine.wrap(BUAG_fake_script)()
+coroutine.wrap(LLJN_fake_script)()

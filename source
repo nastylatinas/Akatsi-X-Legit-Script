@@ -1,53 +1,60 @@
--- NeroX | vj1r
+-- Akatsi-X | vj1r
 -- Version: 3.2
 
 -- Instances:
 
-local NeroX = Instance.new("ScreenGui")
+local Akatsi_X = Instance.new("ScreenGui")
 local mainFrame = Instance.new("Frame")
 local titleOne = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
 local UICorner_2 = Instance.new("UICorner")
 local closeBtn = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local titleTwo = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
-local titleThree = Instance.new("TextLabel")
-local UICorner_5 = Instance.new("UICorner")
-local titleFour = Instance.new("TextLabel")
-local UICorner_6 = Instance.new("UICorner")
 local noteOne = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local ico = Instance.new("ImageLabel")
-local titleSix = Instance.new("TextLabel")
-local UICorner_8 = Instance.new("UICorner")
-local titleSeven = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
 local noteTwo = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local cmd = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local cmd_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local cmd_3 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local cmd_4 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local cmd_5 = Instance.new("TextLabel")
 local UICorner_10 = Instance.new("UICorner")
+local cmd_6 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local cmd_7 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local cmd_8 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
 
 --Properties:
 
-NeroX.Name = "NeroX"
-NeroX.Parent = game.CoreGui
-NeroX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-NeroX.ResetOnSpawn = false
+Akatsi_X.Name = "Akatsi_X"
+Akatsi_X.Parent = game.CoreGui
+Akatsi_X.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Akatsi_X.ResetOnSpawn = false
 
 mainFrame.Name = "mainFrame"
-mainFrame.Parent = NeroX
+mainFrame.Parent = Akatsi_X
 mainFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 mainFrame.BackgroundTransparency = 0.200
-mainFrame.Position = UDim2.new(0.986999989, 0, 0.372000009, 0)
+mainFrame.Position = UDim2.new(0.352999985, 0, 0.372000009, 0)
 mainFrame.Size = UDim2.new(0.291972727, 0, 0.255775601, 0)
-mainFrame.Visible = false
 
 titleOne.Name = "titleOne"
 titleOne.Parent = mainFrame
-titleOne.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
+titleOne.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+titleOne.BackgroundTransparency = 0.500
 titleOne.Position = UDim2.new(0.0141844004, 0, 0.0245901626, 0)
 titleOne.Size = UDim2.new(0.96453923, 0, 0.147540972, 0)
 titleOne.Font = Enum.Font.Kalam
-titleOne.Text = "NeroX Panel"
+titleOne.Text = "Akatsi X Panel"
 titleOne.TextColor3 = Color3.fromRGB(255, 255, 255)
 titleOne.TextScaled = true
 titleOne.TextSize = 14.000
@@ -59,7 +66,8 @@ UICorner_2.Parent = mainFrame
 
 closeBtn.Name = "closeBtn"
 closeBtn.Parent = mainFrame
-closeBtn.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
+closeBtn.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+closeBtn.BackgroundTransparency = 0.500
 closeBtn.Position = UDim2.new(0.333815873, 0, 0.881147444, 0)
 closeBtn.Size = UDim2.new(0.335678726, 0, 0.0819672048, 0)
 closeBtn.Font = Enum.Font.Kalam
@@ -71,53 +79,11 @@ closeBtn.TextWrapped = true
 
 UICorner_3.Parent = closeBtn
 
-titleTwo.Name = "titleTwo"
-titleTwo.Parent = mainFrame
-titleTwo.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
-titleTwo.Position = UDim2.new(0.0115838107, 0, 0.204366446, 0)
-titleTwo.Size = UDim2.new(0.196217537, 0, 0.0983606502, 0)
-titleTwo.Font = Enum.Font.Kalam
-titleTwo.Text = "Reset Key = R"
-titleTwo.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleTwo.TextScaled = true
-titleTwo.TextSize = 14.000
-titleTwo.TextWrapped = true
-
-UICorner_4.Parent = titleTwo
-
-titleThree.Name = "titleThree"
-titleThree.Parent = mainFrame
-titleThree.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
-titleThree.Position = UDim2.new(0.0115838107, 0, 0.34075287, 0)
-titleThree.Size = UDim2.new(0.196217537, 0, 0.0983606502, 0)
-titleThree.Font = Enum.Font.Kalam
-titleThree.Text = "Chat Spy = True"
-titleThree.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleThree.TextScaled = true
-titleThree.TextSize = 14.000
-titleThree.TextWrapped = true
-
-UICorner_5.Parent = titleThree
-
-titleFour.Name = "titleFour"
-titleFour.Parent = mainFrame
-titleFour.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
-titleFour.Position = UDim2.new(0.0115838107, 0, 0.471561968, 0)
-titleFour.Size = UDim2.new(0.196217537, 0, 0.0983606502, 0)
-titleFour.Font = Enum.Font.Kalam
-titleFour.Text = "Fov = 95"
-titleFour.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleFour.TextScaled = true
-titleFour.TextSize = 14.000
-titleFour.TextWrapped = true
-
-UICorner_6.Parent = titleFour
-
 noteOne.Name = "noteOne"
 noteOne.Parent = mainFrame
 noteOne.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
 noteOne.BackgroundTransparency = 1.000
-noteOne.Position = UDim2.new(0.61144489, 0, 0.437045634, 0)
+noteOne.Position = UDim2.new(0.642651975, 0, 0.437045634, 0)
 noteOne.Size = UDim2.new(0.319149017, 0, 0.102459013, 0)
 noteOne.Font = Enum.Font.Kalam
 noteOne.Text = "custom inputs soon."
@@ -126,52 +92,24 @@ noteOne.TextScaled = true
 noteOne.TextSize = 14.000
 noteOne.TextWrapped = true
 
-UICorner_7.Parent = noteOne
+UICorner_4.Parent = noteOne
 
 ico.Name = "ico"
 ico.Parent = mainFrame
 ico.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ico.BackgroundTransparency = 1.000
 ico.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ico.Position = UDim2.new(0.343166202, 0, 0.172131285, 0)
-ico.Size = UDim2.new(0.298654169, 0, 0.709016263, 0)
+ico.Position = UDim2.new(0.361370325, 0, 0.237830177, 0)
+ico.Size = UDim2.new(0.265678138, 0, 0.557214439, 0)
 ico.ZIndex = 0
-ico.Image = "http://www.roblox.com/asset/?id=588467595"
-ico.ImageTransparency = 0.300
-
-titleSix.Name = "titleSix"
-titleSix.Parent = mainFrame
-titleSix.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
-titleSix.Position = UDim2.new(0.0115838107, 0, 0.605416894, 0)
-titleSix.Size = UDim2.new(0.196217537, 0, 0.0983606502, 0)
-titleSix.Font = Enum.Font.Kalam
-titleSix.Text = "Anti Gh = True"
-titleSix.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleSix.TextScaled = true
-titleSix.TextSize = 14.000
-titleSix.TextWrapped = true
-
-UICorner_8.Parent = titleSix
-
-titleSeven.Name = "titleSeven"
-titleSeven.Parent = mainFrame
-titleSeven.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
-titleSeven.Position = UDim2.new(0.0115838107, 0, 0.744849026, 0)
-titleSeven.Size = UDim2.new(0.196217537, 0, 0.0983606502, 0)
-titleSeven.Font = Enum.Font.Kalam
-titleSeven.Text = "Inf Stam = True"
-titleSeven.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleSeven.TextScaled = true
-titleSeven.TextSize = 14.000
-titleSeven.TextWrapped = true
-
-UICorner_9.Parent = titleSeven
+ico.Image = "http://www.roblox.com/asset/?id=8298121781"
+ico.ImageTransparency = 0.800
 
 noteTwo.Name = "noteTwo"
 noteTwo.Parent = mainFrame
 noteTwo.BackgroundColor3 = Color3.fromRGB(0, 85, 197)
 noteTwo.BackgroundTransparency = 1.000
-noteTwo.Position = UDim2.new(0.61144489, 0, 0.537436783, 0)
+noteTwo.Position = UDim2.new(0.642651975, 0, 0.537436783, 0)
 noteTwo.Size = UDim2.new(0.319149017, 0, 0.102459013, 0)
 noteTwo.Font = Enum.Font.Kalam
 noteTwo.Text = "-vj1r"
@@ -180,14 +118,328 @@ noteTwo.TextScaled = true
 noteTwo.TextSize = 14.000
 noteTwo.TextWrapped = true
 
-UICorner_10.Parent = noteTwo
+UICorner_5.Parent = noteTwo
+
+ScrollingFrame.Parent = mainFrame
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(161, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.0130029516, 0, 0.200782448, 0)
+ScrollingFrame.Selectable = false
+ScrollingFrame.Size = UDim2.new(0.320812911, 0, 0.762332261, 0)
+ScrollingFrame.ScrollBarThickness = 5
+ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+cmd.Name = "cmd"
+cmd.Parent = ScrollingFrame
+cmd.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd.BackgroundTransparency = 0.500
+cmd.Position = UDim2.new(0.116965242, 0, 0.0181727856, 0)
+cmd.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd.Font = Enum.Font.Kalam
+cmd.Text = "Reset Key = R"
+cmd.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd.TextScaled = true
+cmd.TextSize = 14.000
+cmd.TextWrapped = true
+
+UICorner_6.Parent = cmd
+
+cmd_2.Name = "cmd"
+cmd_2.Parent = ScrollingFrame
+cmd_2.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_2.BackgroundTransparency = 0.500
+cmd_2.Position = UDim2.new(0.116965242, 0, 0.112986647, 0)
+cmd_2.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_2.Font = Enum.Font.Kalam
+cmd_2.Text = "Inf Stam = True"
+cmd_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_2.TextScaled = true
+cmd_2.TextSize = 14.000
+cmd_2.TextWrapped = true
+
+UICorner_7.Parent = cmd_2
+
+cmd_3.Name = "cmd"
+cmd_3.Parent = ScrollingFrame
+cmd_3.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_3.BackgroundTransparency = 0.500
+cmd_3.Position = UDim2.new(0.116965242, 0, 0.199434578, 0)
+cmd_3.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_3.Font = Enum.Font.Kalam
+cmd_3.Text = "Anti Gh = True"
+cmd_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_3.TextScaled = true
+cmd_3.TextSize = 14.000
+cmd_3.TextWrapped = true
+
+UICorner_8.Parent = cmd_3
+
+cmd_4.Name = "cmd"
+cmd_4.Parent = ScrollingFrame
+cmd_4.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_4.BackgroundTransparency = 0.500
+cmd_4.Position = UDim2.new(0.116965242, 0, 0.288671136, 0)
+cmd_4.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_4.Font = Enum.Font.Kalam
+cmd_4.Text = "Fov = 95"
+cmd_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_4.TextScaled = true
+cmd_4.TextSize = 14.000
+cmd_4.TextWrapped = true
+
+UICorner_9.Parent = cmd_4
+
+cmd_5.Name = "cmd"
+cmd_5.Parent = ScrollingFrame
+cmd_5.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_5.BackgroundTransparency = 0.500
+cmd_5.Position = UDim2.new(0.116965242, 0, 0.369541794, 0)
+cmd_5.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_5.Font = Enum.Font.Kalam
+cmd_5.Text = "Chat Spy = True"
+cmd_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_5.TextScaled = true
+cmd_5.TextSize = 14.000
+cmd_5.TextWrapped = true
+
+UICorner_10.Parent = cmd_5
+
+cmd_6.Name = "cmd"
+cmd_6.Parent = ScrollingFrame
+cmd_6.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_6.BackgroundTransparency = 0.500
+cmd_6.Position = UDim2.new(0.116965242, 0, 0.450412452, 0)
+cmd_6.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_6.Font = Enum.Font.Kalam
+cmd_6.Text = "Auto Reset = True"
+cmd_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_6.TextScaled = true
+cmd_6.TextSize = 14.000
+cmd_6.TextWrapped = true
+
+UICorner_11.Parent = cmd_6
+
+cmd_7.Name = "cmd"
+cmd_7.Parent = ScrollingFrame
+cmd_7.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_7.BackgroundTransparency = 0.500
+cmd_7.Position = UDim2.new(0.116965242, 0, 0.528494477, 0)
+cmd_7.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_7.Font = Enum.Font.Kalam
+cmd_7.Text = "Inf Zoom = True"
+cmd_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_7.TextScaled = true
+cmd_7.TextSize = 14.000
+cmd_7.TextWrapped = true
+
+UICorner_12.Parent = cmd_7
+
+cmd_8.Name = "cmd"
+cmd_8.Parent = ScrollingFrame
+cmd_8.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+cmd_8.BackgroundTransparency = 0.500
+cmd_8.Position = UDim2.new(0.116965242, 0, 0.609365106, 0)
+cmd_8.Size = UDim2.new(0.753334403, 0, 0.0508703105, 0)
+cmd_8.Font = Enum.Font.Kalam
+cmd_8.Text = "Vest Checker = True"
+cmd_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmd_8.TextScaled = true
+cmd_8.TextSize = 14.000
+cmd_8.TextWrapped = true
+
+UICorner_13.Parent = cmd_8
 
 -- Scripts:
 
-local function BAJI_fake_script() -- NeroX.Bypass 
-	local script = Instance.new('LocalScript', NeroX)
+local function QFKSD_fake_script() -- Akatsi_X.Noti 
+	local script = Instance.new('LocalScript', Akatsi_X)
 
+	local sg = game:GetService('StarterGui')
+	local plr = game.Players.LocalPlayer
 	
+	local function notifSound()
+		local s = Instance.new('Sound', game.Workspace)
+		s.SoundId = 'rbxassetid://147722098'
+		s.Looped = false
+		s.Playing = true
+		s.Volume = 0.2
+		game:GetService('Debris'):AddItem(s, 2.03)
+	end
+	
+	local function startNotif()
+		sg:SetCore("SendNotification", {
+			Title = "Akatsi X",
+			Text = 'Press " ; " for the panel.',
+			Icon = "http://www.roblox.com/asset/?id=8298121781"
+		})
+	end
+	local function welcNotif()
+		sg:SetCore("SendNotification", {
+			Title = "Akatsi X",
+			Text = plr.Name..' | '..plr.UserId,
+			Icon = "http://www.roblox.com/asset/?id=8298121781"
+		})
+	end
+	spawn(welcNotif)
+	spawn(notifSound)
+	wait(0.01)
+	spawn(startNotif)
+end
+coroutine.wrap(QFKSD_fake_script)()
+local function FEXS_fake_script() -- Akatsi_X.Main 
+	local script = Instance.new('LocalScript', Akatsi_X)
+
+	local tweenService = game:GetService('TweenService')
+	local uis = game:GetService('UserInputService')
+	local workSpace = game:GetService('Workspace')
+	local RunService = game:GetService('RunService')
+	local lightService = game:GetService('Lighting')
+	
+	local player = game.Players.LocalPlayer
+	
+	local gui = script.Parent
+	local mainFrame = gui.mainFrame
+	
+	local closeBtn = mainFrame.closeBtn
+	
+	local timeInterval = TweenInfo.new(0.5)
+	
+	local closeProp = {}
+	closeProp.Position = UDim2.new(0.987, 0,0.372, 0)
+	closeProp.Visible = false
+	local openProp = {}
+	openProp.Position = UDim2.new(0.353, 0,0.372, 0)
+	openProp.Visible = true
+	
+	local closeTween = tweenService:Create(mainFrame, timeInterval, closeProp)
+	local openTween = tweenService:Create(mainFrame, timeInterval, openProp)
+	
+	local function oSound()
+		local s = Instance.new('Sound', game.Workspace)
+		s.Volume = 1
+		s.SoundId = 'rbxassetid://9119736978'
+		s.Playing = true
+		s.Looped = false
+		game:GetService('Debris'):AddItem(s, 0.5)
+	end
+	closeBtn.MouseButton1Click:Connect(function()
+		closeTween:Play()
+		spawn(oSound)
+	end)
+	uis.InputBegan:Connect(function(input, isTyping)
+		if not isTyping then
+			if input.KeyCode == Enum.KeyCode.Semicolon then
+				openTween:Play()
+				closeBtn.Visible = true
+				spawn(oSound)
+			end
+		end
+	end)
+	--[basic functions]
+	local function resetChar()
+		if player.Character:FindFirstChild('Humanoid') then
+			local h = player.Character:FindFirstChild('Humanoid')
+			h.Health = 0
+		end
+	end
+	uis.InputBegan:Connect(function(input, isTyping)
+		if not isTyping then
+			if input.KeyCode == Enum.KeyCode.R then
+				spawn(resetChar)
+			end
+		end
+	end)
+	local function fovChange()
+		local amount = 95
+		workspace.Camera.FieldOfView = amount
+	end
+	spawn(fovChange)
+	--[chat spy cuz they talk hot]
+	local function chatSpy()
+		local ChatFrame = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame 
+		ChatFrame.ChatChannelParentFrame.Visible = true
+		ChatFrame.ChatBarParentFrame.Position = ChatFrame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), ChatFrame.ChatChannelParentFrame.Size.Y)
+	end
+	spawn(chatSpy)
+	--[inf stam]
+	local LocalP = game.Players.LocalPlayer
+	
+	LocalP.Character.Stamina.Changed:Connect(function()
+		LocalP.Character:WaitForChild"Stamina"
+		LocalP.Character.Stamina.Value = 100 
+	end)
+	LocalP.CharacterAdded:Connect(function()
+		LocalP.Character:WaitForChild"Stamina"
+		LocalP.Character.Stamina.Changed:Connect(function()
+			LocalP.Character.Stamina.Value = 100 
+		end)
+	end)
+	--[bullet trails for extra swag]
+	local function bulletTrails()
+		RunService.RenderStepped:Connect(function()
+			if game.Players.LocalPlayer.Character.Humanoid then
+	
+				if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet") then
+	
+					if game.Players.LocalPlayer.Character.Humanoid.Bullet:findFirstChild("Trail") then
+	
+						if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Name == "BulletDone" then
+	
+						end
+						if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet"):findFirstChild("Trail").Lifetime < 0.21 then
+	
+							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Lifetime = 0.21
+							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Transparency = NumberSequence.new(0)
+							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Color = ColorSequence.new(Color3.fromRGB(255, 0, 0))
+							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Name = "BulletDone"
+						end
+					end
+				end
+			end
+		end)
+	end
+	spawn(bulletTrails)
+	--[anti gh cuz losers like to gh a lot like no lives]
+	repeat wait() until game:IsLoaded() and game:WaitForChild"Players";
+	
+	local Players, Uis, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"StarterGui";
+	local Client, AntiGH = Players.LocalPlayer, true;
+	
+	function StateChangedEvent(T, Changed)
+		if AntiGH == true then
+			if Client and Client.Character and Client.Character:FindFirstChildOfClass"Humanoid" then
+				if Changed == Enum.HumanoidStateType.FallingDown or Changed == Enum.HumanoidStateType.PlatformStanding then
+					Client.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Running);Client.Character.Humanoid.PlatformStand = false
+				end
+			end
+		end
+	end
+	Client.Character:WaitForChild"Humanoid".StateChanged:Connect(StateChangedEvent)
+	
+	function CharacterAddedEvent()
+		Client.Character:WaitForChild"Humanoid";
+		Client.Character.Humanoid.StateChanged:Connect(StateChangedEvent)
+	end
+	Client.CharacterAdded:Connect(CharacterAddedEvent)
+	--[Inf zoom]
+	game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
+	--[auto reset cuz why not]
+	repeat wait() until game:IsLoaded()
+	if game.PlaceId == 455366377 then
+		while wait() do
+			pcall(function()
+				if game.Players.LocalPlayer.Character.Head:FindFirstChild("Bone") then
+					game.Players.LocalPlayer.Character.Humanoid.Health = 0
+				end
+			end)
+		end
+	end
+end
+coroutine.wrap(FEXS_fake_script)()
+local function BUAG_fake_script() -- Akatsi_X.By 
+	local script = Instance.new('LocalScript', Akatsi_X)
+
 	local LP = game.Players.LocalPlayer
 	local Character = LP.Character
 	local Raw = getrawmetatable(game)
@@ -298,180 +550,5 @@ local function BAJI_fake_script() -- NeroX.Bypass
 			NameCall = hookfunction(Raw.__namecall, newcclosure(NameCallFunc))
 		end
 	end
-	
-	setreadonly(Raw,true)
-	
 end
-coroutine.wrap(BAJI_fake_script)()
-local function ALIRT_fake_script() -- NeroX.Noti 
-	local script = Instance.new('LocalScript', NeroX)
-
-	local sg = game:GetService('StarterGui')
-	local plr = game.Players.LocalPlayer
-	
-	local function notifSound()
-		local s = Instance.new('Sound', game.Workspace)
-		s.SoundId = 'rbxassetid://8747340426'
-		s.Looped = false
-		s.Playing = true
-		s.Volume = 1
-		game:GetService('Debris'):AddItem(s, 2.03)
-	end
-	
-	local function startNotif()
-		sg:SetCore("SendNotification", {
-			Title = "NeroX System",
-			Text = 'Press " ; " for the panel.',
-			Icon = "http://www.roblox.com/asset/?id=588467595"
-		})
-	end
-	local function welcNotif()
-		sg:SetCore("SendNotification", {
-			Title = "NeroX System",
-			Text = plr.Name..' | '..plr.UserId,
-			Icon = "http://www.roblox.com/asset/?id=588467595"
-		})
-	end
-	spawn(welcNotif)
-	spawn(notifSound)
-	wait(1)
-	spawn(startNotif)
-end
-coroutine.wrap(ALIRT_fake_script)()
-local function REURW_fake_script() -- NeroX.Main 
-	local script = Instance.new('LocalScript', NeroX)
-
-	local tweenService = game:GetService('TweenService')
-	local uis = game:GetService('UserInputService')
-	local workSpace = game:GetService('Workspace')
-	local RunService = game:GetService('RunService')
-	local lightService = game:GetService('Lighting')
-	
-	local player = game.Players.LocalPlayer
-	
-	local gui = script.Parent
-	local mainFrame = gui.mainFrame
-	
-	local closeBtn = mainFrame.closeBtn
-	
-	local timeInterval = TweenInfo.new(0.5)
-	
-	local closeProp = {}
-	closeProp.Position = UDim2.new(0.987, 0,0.372, 0)
-	closeProp.Visible = false
-	local openProp = {}
-	openProp.Position = UDim2.new(0.353, 0,0.372, 0)
-	openProp.Visible = true
-	
-	local closeTween = tweenService:Create(mainFrame, timeInterval, closeProp)
-	local openTween = tweenService:Create(mainFrame, timeInterval, openProp)
-	
-	local function oSound()
-		local s = Instance.new('Sound', game.Workspace)
-		s.Volume = 1
-		s.SoundId = 'rbxassetid://9119736978'
-		s.Playing = true
-		s.Looped = false
-		game:GetService('Debris'):AddItem(s, 0.5)
-	end
-	closeBtn.MouseButton1Click:Connect(function()
-		closeTween:Play()
-		spawn(oSound)
-	end)
-	uis.InputBegan:Connect(function(input, isTyping)
-		if not isTyping then
-			if input.KeyCode == Enum.KeyCode.Semicolon then
-				openTween:Play()
-				closeBtn.Visible = true
-				spawn(oSound)
-			end
-		end
-	end)
-	--[basic functions]
-	local function resetChar()
-		if player.Character:FindFirstChild('Humanoid') then
-			local h = player.Character:FindFirstChild('Humanoid')
-			h.Health = 0
-		end
-	end
-	uis.InputBegan:Connect(function(input, isTyping)
-		if not isTyping then
-			if input.KeyCode == Enum.KeyCode.R then
-				spawn(resetChar)
-			end
-		end
-	end)
-	local function fovChange()
-		local amount = 95
-		workspace.Camera.FieldOfView = amount
-	end
-	spawn(fovChange)
-	--[chat spy cuz they talk hot]
-	local function chatSpy()
-		local ChatFrame = game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame 
-		ChatFrame.ChatChannelParentFrame.Visible = true
-		ChatFrame.ChatBarParentFrame.Position = ChatFrame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), ChatFrame.ChatChannelParentFrame.Size.Y)
-	end
-	spawn(chatSpy)
-	--[inf stam]
-	local LocalP = game.Players.LocalPlayer
-	
-	LocalP.Character.Stamina.Changed:Connect(function()
-		LocalP.Character:WaitForChild"Stamina"
-		LocalP.Character.Stamina.Value = 100 
-	end)
-	LocalP.CharacterAdded:Connect(function()
-		LocalP.Character:WaitForChild"Stamina"
-		LocalP.Character.Stamina.Changed:Connect(function()
-			LocalP.Character.Stamina.Value = 100 
-		end)
-	end)
-	--[bullet trails for extra swag]
-	local function bulletTrails()
-		RunService.RenderStepped:Connect(function()
-			if game.Players.LocalPlayer.Character.Humanoid then
-	
-				if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet") then
-	
-					if game.Players.LocalPlayer.Character.Humanoid.Bullet:findFirstChild("Trail") then
-	
-						if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Name == "BulletDone" then
-	
-						end
-						if game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet"):findFirstChild("Trail").Lifetime < 0.21 then
-	
-							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Lifetime = 0.21
-							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Transparency = NumberSequence.new(0)
-							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Trail.Color = ColorSequence.new(Color3.fromRGB(0, 0, 255))
-							game.Players.LocalPlayer.Character.Humanoid:findFirstChild("Bullet").Name = "BulletDone"
-						end
-					end
-				end
-			end
-		end)
-	end
-	spawn(bulletTrails)
-	--[anti gh cuz losers like to gh a lot like no lives]
-	repeat wait() until game:IsLoaded() and game:WaitForChild"Players";
-	
-	local Players, Uis, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"StarterGui";
-	local Client, AntiGH = Players.LocalPlayer, true;
-	
-	function StateChangedEvent(T, Changed)
-		if AntiGH == true then
-			if Client and Client.Character and Client.Character:FindFirstChildOfClass"Humanoid" then
-				if Changed == Enum.HumanoidStateType.FallingDown or Changed == Enum.HumanoidStateType.PlatformStanding then
-					Client.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Running);Client.Character.Humanoid.PlatformStand = false
-				end
-			end
-		end
-	end
-	Client.Character:WaitForChild"Humanoid".StateChanged:Connect(StateChangedEvent)
-	
-	function CharacterAddedEvent()
-		Client.Character:WaitForChild"Humanoid";
-		Client.Character.Humanoid.StateChanged:Connect(StateChangedEvent)
-	end
-	Client.CharacterAdded:Connect(CharacterAddedEvent)
-end
-coroutine.wrap(REURW_fake_script)()
+coroutine.wrap(BUAG_fake_script)()
